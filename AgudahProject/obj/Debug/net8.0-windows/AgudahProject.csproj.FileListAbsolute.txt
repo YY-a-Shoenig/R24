@@ -1,0 +1,16 @@
+C:\Users\Shoenig home\source\repos\AgudahProject\bin\Debug\net8.0-windows\AgudahProject.exe
+C:\Users\Shoenig home\source\repos\AgudahProject\bin\Debug\net8.0-windows\AgudahProject.deps.json
+C:\Users\Shoenig home\source\repos\AgudahProject\bin\Debug\net8.0-windows\AgudahProject.runtimeconfig.json
+C:\Users\Shoenig home\source\repos\AgudahProject\bin\Debug\net8.0-windows\AgudahProject.dll
+C:\Users\Shoenig home\source\repos\AgudahProject\bin\Debug\net8.0-windows\AgudahProject.pdb
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.Form1.resources
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.csproj.GenerateResource.cache
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.AssemblyInfoInputs.cache
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.AssemblyInfo.cs
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.csproj.CoreCompileInputs.cache
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.dll
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\refint\AgudahProject.dll
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.pdb
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\AgudahProject.genruntimeconfig.cache
+C:\Users\Shoenig home\source\repos\AgudahProject\obj\Debug\net8.0-windows\ref\AgudahProject.dll
