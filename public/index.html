@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MGM Assets</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div id="headerDiv">
+        <h1>MGM Assets</h1>
+    <h4>Computer Inventory</h4>
+    <button id="refreshButton" class="headerButton">Refresh Data</button>    
+    <button id="generateADCsv" class="headerButton">Generate Csv of Extra AD Computers</button>
+    <button id="generatefsCsv" class="headerButton">Generate Csv of Extra FreshService Computers</button>
+    <hr>
+
+        <div id="variableDiv">
+            
+            <div id="navigateButtonDiv"></div>
+            <div id="headerButtonDiv">
+            
+            </div>
+            <h3 id="title"></h3>
+            <div id="total"></div>
+        </div>
+    
+    
+    </div>
+    
+    <div id="bodyDiv">
+        <div class="opener" id="notSharepoint">View computers in Rmm but not in Sharepoint.</div>
+        <div class="opener" id="sharepointNotRmm">View computers in Sharepoint but not Rmm.</div>
+        
+      
+    </div>
+    
+    <div id="working">
+        <div>Working on it...<br>This may take up to 15 minutes.</div>
+        <hr>
+        <div id="infoDiv"></div>
+    </div>
+    <div id="errorDiv">
+        <button>Ok</button>
+    </div>
+
+     
+    <script src="javascripts/index.js" type="module"></script>
+</body>
+</html>
+
+
+
+
+  

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{ title }}</title>
+    
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+  </head>
+
+  <body>
+    <div class="container">
+        <h1 id="layouth1">{{appTitle}}</h1>
+
+        <hr>
+    
+      
+      
+            <div id="displayDiv">
+                <div class="section">
+                    <div class="heading">RMM Computers</div>
+     
+                    <div class="list">
+            
+                            {{#rmmComputerNames}}
+                            <div class="computer">
+                                <p>{{.}}</p>
+                            </div>
+                            {{/rmmComputerNames}}
+
+                    </div>        
+                    <p class="layoutTotal">Total Computers: <span>{{rmmTotal}}</span></p>      
+        
+                </div>
+
+                <div class="section">
+
+                    <div class="heading">Sharepoint Computers</div>
+                    <div class="list">
+
+                        {{#sharepointComputerNames}}
+                            <div class="computer">
+                                <p>{{.}}</p>
+                            </div>
+                        {{/sharepointComputerNames}}
+
+                    </div>
+                    <p class="layoutTotal">Total Computers: <span>{{sharepointTotal}}</span></p>
+                </div>
+
+                <div class="section">
+                    <div class="heading">AD Computers</div>
+                    <div class="list">
+
+                        {{#adComputers}}
+                        <div class="computer">
+                            <p>{{.}}</p>
+                    </div>
+                        {{/adComputers}}
+                    </div>
+                    <p class="layoutTotal">Total Computers: <span>{{adTotal}}</span></p>
+                </div>
+
+                 <div class="section">
+                    <div class="heading">Freshservice Computers</div>
+                    <div class="list">
+                        {{#freshserviceComputerNames}}
+                        <div class="computer">
+                            <p>{{.}}</p>
+                        </div>
+                        {{/freshserviceComputerNames}}
+                    </div>
+                    <p class="layoutTotal">Total Computers: <span>{{freshserviceTotal}}</span></p>
+                </div>
+        
+
+         
+            </div>
+
+            <div id="comparisons">
+                <!--p id="warning">Wait about 5 minutes for all the data to load  behind the scenes before generating a csv file.</p-->
+            </div>
+
+            <div id="functionDiv">
+                <a href="/">Home</a>
+                <!--a href="/selectLocation">Update AD and SQL</a-->
+            </div>
+     
+    </div>
+  </body>
+
+</html>

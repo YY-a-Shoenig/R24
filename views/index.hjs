@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1 >Welcome to {{ title }}</h1>
+    <!--h3 class="warning">Please wait for the data to load in the background before viewing the assets.</h3>
+    <h3 class="warning">It may take up to 10 minutes.</h3>
+    <h6 class="warning">Failure to wait may result in an inaccurate portrayal of the assets.</h6-->
+    <a href="/notify">View Assets</a>    
+    <script src="../javascripts/index.js"></script>
+  </body>
+</html>

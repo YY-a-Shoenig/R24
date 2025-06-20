@@ -1,0 +1,227 @@
+
+
+body {
+  padding: 25px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  border: 1px black solid;
+  background: url("mgmLogo.png") ; 
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+
+  height: 100%;
+}
+
+h1, h3, h4, h6{
+  text-align: center;
+}
+
+
+a {
+  border: 1pt solid black;
+  border-radius: 5%;
+  color: black;
+  background-color: gainsboro;
+  text-decoration: none;
+  margin: 1em;
+}
+
+#layouth1{
+  padding-bottom: 1.5em;
+}
+
+.layoutTotal{
+}
+
+#displayDiv{
+  display: flex;
+  margin: 1em;
+  padding-top: 2em;
+  
+}
+
+#checkboxes{
+  display: flex;
+}
+
+#working{
+  border: .5px solid black;
+  border-radius: 10px;
+  background-color: rgba(173, 216, 230, 0.938);
+  padding: .5em;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-200px,-50px);
+  text-align: center;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  font-size: larger;
+  z-index: 1;
+}
+
+
+#bodyDiv{
+  overflow: auto;
+  max-height: 800px;
+ 
+}
+
+.opener{
+  border: 1px black solid;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+  margin-bottom: 7px;
+  padding: 7px;
+  background-color: rgba(255, 0, 255, 0.466);
+}
+
+.opener:hover{
+  cursor: pointer;  
+}
+
+.opener:active{
+  box-shadow: 5px 5px  5px rgba(180, 50, 180, 0.795) inset;
+}
+
+.fixed{
+  position: relative;
+  top: 30%;
+  left: 25%;
+
+}
+
+.section{
+  height: 15em;
+  margin: 1em;
+  padding-top: 3px;
+  width: 25%;
+  border: 2pt solid black ;
+  overflow: auto;
+  
+}
+
+.heading{
+  text-decoration: underline ;
+}
+
+#title{
+  white-space: pre;
+}
+
+
+
+#navigateButtonDiv{
+  display: flex;
+  justify-content: center;
+}
+
+#headerDiv{
+  text-align: center;
+}
+#headerButtonDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.headerButton{
+  margin: .25em;
+  background-color:rgba(11, 65, 230, 0.37);
+}
+.headerButton:hover{
+  background-color:rgba(11, 66, 230, 0.603);
+  cursor: pointer;
+}
+
+#total{
+  display: flex;
+  justify-content: center;
+  margin-bottom: .5em;
+  margin-top: 2em;
+  font-weight: bold;
+  font-size: large;
+}
+
+.inTableButton{
+  background-color: transparent;
+}
+.inTableButton:hover{
+   background-color:rgba(11, 66, 230, 0.603);
+   cursor: pointer;
+}
+
+.list{
+  border-bottom: .5pt solid black;
+  border-top: .5pt solid black;
+  height: 80%;
+  overflow: auto;
+}
+
+P{
+  
+  margin: 1pt;
+}
+.warning{
+  color: red;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+
+
+th{
+  border-right: 1px solid black ;
+  border-bottom: 2px solid black;
+  border-top:2px solid black ;
+ padding: .3em;
+ }
+
+thead{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+thead tr{
+  background-color: #cc7dc1;
+}
+tr:nth-child(even) {
+  background-color: #c918b159;
+        }
+
+
+th:last-child{
+  border-right: none;
+}
+td{
+  text-align: center;
+}
+td{
+  border-right: 1px solid black ;
+ padding: .3em;
+}
+td:last-child{
+  border-right: none;
+}
+
+#errorDiv{
+   border: .5px solid black;
+  border-radius: 10px;
+  background-color: rgba(173, 216, 230, 0.938);
+  padding: .5em;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  transform: translate(-200px,-50px);
+  text-align: center;
+  justify-content: center;
+  height: 100px;
+  width: 400px;
+  font-size: larger;
+  z-index: 4;
+}
